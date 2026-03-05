@@ -1,0 +1,92 @@
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==================== DATABASE ====================
+*.db
+*.sqlite
+*.sqlite3
+databases/*.db
+!databases/.gitkeep
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ==================== ENVIRONMENT ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== TESTS ====================
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+.tox/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# ==================== LOGS ====================
+*.log
+logs/
+
+# ==================== JUPYTER ====================
+.ipynb_checkpoints/
+# *.ipynb
+
+# ==================== SOLUTIONS (À DÉCOMMENTER PROGRESSIVEMENT) ====================
+# Décommentez les lignes ci-dessous au fur et à mesure de la publication des solutions
+
+# Session 1
+notebooks/Session1_Notebook_FORMATEUR.ipynb
+slides/CleanCode_Session1.pptx
+
+# Session 2
+cheatsheets/Cheatsheet_Session2_Pandas_Regex.md
+notebooks/Session2_Notebook.ipynb
+notebooks/Session2_Notebook_FORMATEUR.ipynb
+slides/CleanCode_Session2.pptx
+data/*
+
+# ==================== DOCUMENTS FORMATEUR ====================
+# Documents pédagogiques à ne pas publier
+notes_formateur.md
+
+# ==================== DONNÉES SENSIBLES ====================
+# Clés API et secrets (ne JAMAIS commiter)
+*.key
+*.pem
+*.cert
+secrets/
+.secrets/
+
+# ==================== BUILD & DEPLOY ====================
+*.egg
+*.whl
+.eggs/
+*.manifest
+*.spec
